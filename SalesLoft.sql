@@ -24,6 +24,13 @@ left join `spheric-crow-425016-d7.zm_data.per_capita` as pc
 
 )
 
+select 
+
+* 
+from cte1
+order by scoring desc
+
+
 --Question 2
 --GDP Groth YoY
 
